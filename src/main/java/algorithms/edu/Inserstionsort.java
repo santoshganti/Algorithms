@@ -9,11 +9,14 @@ public class Inserstionsort {
 	// System.out.println("\n");
 	// }
 	// Algorithms starts here
+
 	public int[] inserstionSort(int inputarray[]) {
+
 		// System.out.print("The given sequence is ");
 		// for (int k = 0; k < inputarray.length; k++) {
 		// System.out.print(inputarray[k] + ",");
 		// }
+
 		for (int j = 1; j < inputarray.length; j++) {
 			int key = inputarray[j];
 			int i = j - 1;
@@ -23,9 +26,9 @@ public class Inserstionsort {
 				i--;
 			}
 			inputarray[i + 1] = key;
+
 		}
 		// printSequence(inputarray);
-
 		return inputarray;
 	}
 }

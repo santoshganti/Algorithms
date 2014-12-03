@@ -1,11 +1,12 @@
 package algorithms.edu;
 
 import org.junit.Test;
+import static org.junit.Assert.*;
 
-import static junit.framework.Assert.*;
+//import static junit.framework.Assert.*;
 
 public class Insertiontest {
-	@SuppressWarnings("deprecation")
+
 	@Test
 	public void testSort() {
 		// Test case 1
@@ -15,7 +16,7 @@ public class Insertiontest {
 
 		int[] sorted = sort.inserstionSort(toSort);
 
-		assertEquals(sorted, expected);
+		assertArrayEquals(sorted, expected);
 
 	}
 }
