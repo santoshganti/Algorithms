@@ -1,9 +1,11 @@
 package algorithms.edu;
 
 import org.junit.Test;
+
 import static junit.framework.Assert.*;
 
 public class Insertiontest {
+	@SuppressWarnings("deprecation")
 	@Test
 	public void testSort() {
 		// Test case 1
