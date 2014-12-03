@@ -8,7 +8,7 @@ public class Inserstionsort {
 		}
 		System.out.println("\n");
 	}
-
+//Algorithms starts here
 	public int[] inserstionSort(int inputarray[]) {
 		System.out.print("The given sequence is ");
 		for (int k = 0; k < inputarray.length; k++) {
