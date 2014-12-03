@@ -1,7 +1,7 @@
 package algorithms.edu;
 
 public class Inserstionsort {
-	public static void printSequence(int[] sortedsequence) {
+	public void printSequence(int[] sortedsequence) {
 		System.out.print("\nThe sorted sequence is ");
 		for (int i = 0; i < sortedsequence.length; i++) {
 			System.out.print(sortedsequence[i] + ",");
@@ -9,7 +9,7 @@ public class Inserstionsort {
 		System.out.println("\n");
 	}
 
-	public static void inserstionSort(int inputarray[]) {
+	public int[] inserstionSort(int inputarray[]) {
 		System.out.print("The given sequence is ");
 		for (int k = 0; k < inputarray.length; k++) {
 			System.out.print(inputarray[k] + ",");
@@ -25,5 +25,7 @@ public class Inserstionsort {
 			inputarray[i + 1] = key;
 		}
 		printSequence(inputarray);
+
+		return inputarray;
 	}
 }
