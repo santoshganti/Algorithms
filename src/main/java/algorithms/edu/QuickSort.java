@@ -1,7 +1,8 @@
 package algorithms.edu;
 
 public class QuickSort {
-
+	
+	//Actual method for performing the quick sort
 	public int[] quickSort(int Array[], int p, int r) {
 		if (p < r) {
 			int q = partition(Array, p, r);
@@ -11,6 +12,7 @@ public class QuickSort {
 		return Array;
 	}
 
+	//Partitions the algorithm into sorted two sets of sub arrays
 	public int partition(int Array[], int p, int r) {
 		int x = Array[r];
 		int i = p - 1;
@@ -25,8 +27,10 @@ public class QuickSort {
 
 	}
 
+	//global variable for the interchange used in the exchange method
 	private int ExchangeArray[];
 
+	//Method to interchange elements
 	private void exchange(int a, int b) {
 		int temp = 0;
 		temp = ExchangeArray[a];
