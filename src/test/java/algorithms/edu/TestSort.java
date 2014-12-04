@@ -16,7 +16,6 @@ public class TestSort {
 
 		int[] sorted = sort.inserstionSort(toSort);
 
-		assertArrayEquals("The array is not sorted properly",sorted, expected);
-
+		assertArrayEquals("The array is not sorted properly", sorted, expected);
 	}
 }
