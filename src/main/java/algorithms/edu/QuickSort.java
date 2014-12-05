@@ -3,6 +3,12 @@ package algorithms.edu;
 public class QuickSort {
 	
 	//Actual method for performing the quick sort
+	/*
+	 * ALGORITHM FOR QUICK SORT METHOD
+	 * if p<r
+	 * q = PARTITION(A,p,r)
+	 * QUICKSORT(
+	 */
 	public int[] quickSort(int Array[], int p, int r) {
 		if (p < r) {
 			int q = partition(Array, p, r);
